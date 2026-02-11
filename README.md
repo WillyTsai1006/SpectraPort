@@ -54,17 +54,17 @@ HRP 展現了最平滑的淨值曲線，證明了其在市場震盪期間的抗�
     程式將自動下載數據、執行 RMT 頻譜分析、進行滾動回測，並將結果圖表儲存至 images/ 資料夾。
 
 ## 📂 Project Structure
-- src/denoise.py: 實作 Marchenko-Pastur 分佈擬合與特徵值裁剪。
+- src/denoise.py : 實作 Marchenko-Pastur 分佈擬合與特徵值裁剪。
 
-- src/clustering.py: 實作 Hierarchical Clustering 與矩陣重排。
+- src/clustering.py : 實作 Hierarchical Clustering 與矩陣重排。
 
-- src/optimization.py: 實作 Markowitz Mean-Variance 與 HRP 優化器。
+- src/optimization.py : 實作 Markowitz Mean-Variance 與 HRP 優化器。
 
-- src/backtest.py: 實作 Rolling Window Out-of-Sample Validation。
+- src/backtest.py : 實作 Rolling Window Out-of-Sample Validation。
 
 ## 🧠 Theory
 - Random Matrix Theory (RMT) : 利用 $\lambda_{max} = \sigma^2(1+\sqrt{N/T})^2$ 濾除雜訊特徵值。
 
-- Hierarchical Risk Parity (HRP): 利用 Graph Theory 與 Recursion 解決矩陣求逆的不穩定性問題。
+- Hierarchical Risk Parity (HRP) : 利用 Graph Theory 與 Recursion 解決矩陣求逆的不穩定性問題。
 
 Created by Willy Tsai
